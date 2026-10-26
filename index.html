@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gustavo Miranda dos Santos — Academic Work</title>
+<meta name="description" content="Final theses and technical projects by Gustavo Miranda dos Santos, Naval Engineer.">
+<style>
+  :root {
+    --bg: #f7f7f5; --card: #ffffff; --text: #1d2125; --muted: #5b636b;
+    --line: #e2e4e7; --accent: #0b4f8a; --tag: #eef3f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121417; --card: #1a1d21; --text: #e6e8eb; --muted: #9aa3ad;
+      --line: #2a2f35; --accent: #6fb1f0; --tag: #1f2a36;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 16px 64px; }
+  header { margin-bottom: 36px; }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 6px; }
+  .role { color: var(--muted); margin: 0 0 14px; }
+  .intro { margin: 0; }
+  article {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 22px 24px; margin-bottom: 18px;
+  }
+  .meta { font-size: .85rem; color: var(--muted); margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; line-height: 1.35; margin: 0 0 10px; }
+  article p { margin: 0 0 12px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; padding: 0; list-style: none; }
+  .tags li { background: var(--tag); border-radius: 4px; padding: 2px 8px; font-size: .8rem; }
+  .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { color: var(--muted); font-size: .85rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Gustavo Miranda dos Santos</h1>
+    <p class="role">Naval Engineer · Brazilian Navy</p>
+    <p class="intro">Final theses from my undergraduate and postgraduate studies. Each repository
+    contains the full document and, where applicable, the code, written so that the work can be
+    understood and reproduced independently.</p>
+  </header>
+
+  <article>
+    <p class="meta">B.Sc. Naval Engineering · Polytechnic School, University of São Paulo · 2022</p>
+    <h2>Conceptual Design of a 2,100-ton Offshore Patrol Vessel</h2>
+    <p>Team undergraduate thesis covering the conceptual design of an OPV using the UCL ship design
+    methodology: general arrangement, weights and centres, intact and damaged stability, seakeeping
+    (RAOs) and life-cycle cost assessment. I also coordinated the team's schedule and deliverables.</p>
+    <ul class="tags"><li>Ship design</li><li>Stability</li><li>Seakeeping</li><li>Maxsurf</li><li>Project coordination</li></ul>
+    <div class="links">
+      <a href="https://github.com/GMSantos4/naval-architecture-undergraduate-thesis">Repository</a>
+      <a href="https://github.com/GMSantos4/naval-architecture-undergraduate-thesis/blob/main/thesis_ship_ocean_patrol.pdf">Thesis (PDF)</a>
+    </div>
+  </article>
+
+  <article>
+    <p class="meta">MBA in Data Science and Analytics · USP ESALQ · 2023</p>
+    <h2>Object Recognition in Images with Convolutional Neural Networks</h2>
+    <p>Transfer learning and fine-tuning of VGG16, Xception and ResNet101 to classify drones, cars,
+    ships and airplanes, with data augmentation and evaluation by confusion matrix, precision,
+    recall and F1-score. Xception reached accuracy and F1-score above 98%.</p>
+    <ul class="tags"><li>Deep learning</li><li>Python</li><li>TensorFlow / Keras</li><li>Computer vision</li></ul>
+    <div class="links">
+      <a href="https://github.com/GMSantos4/cnn-image-classification-mba-thesis">Repository</a>
+      <a href="https://github.com/GMSantos4/cnn-image-classification-mba-thesis/blob/main/cnn_classification_mbs_usp_thesis.pdf">Thesis (PDF)</a>
+      <a href="https://github.com/GMSantos4/cnn-image-classification-mba-thesis/blob/main/main_vgg16.ipynb">Notebook</a>
+    </div>
+  </article>
+
+  <article>
+    <p class="meta">Specialization in Structural Numerical Analysis using FEM · ESSS Institute · 2025</p>
+    <h2>Finite Element Analysis of a Bulk Carrier Midship Section</h2>
+    <p>Longitudinal stress analysis of the China Steel Liberty midship section in Ansys Mechanical,
+    under hogging and sagging wave bending moments from the IACS Common Structural Rules, with a
+    mesh convergence study and comparison against classical ship beam theory.</p>
+    <ul class="tags"><li>FEA</li><li>Ansys Mechanical</li><li>IACS CSR</li><li>Ship structures</li></ul>
+    <div class="links">
+      <a href="https://github.com/GMSantos4/naval-structural-fea-postgrad-thesis">Repository</a>
+      <a href="https://github.com/GMSantos4/naval-structural-fea-postgrad-thesis/blob/main/master_section_analysis_postgrad_thesis.pdf">Thesis (PDF)</a>
+      <a href="https://github.com/GMSantos4/naval-structural-fea-postgrad-thesis/blob/main/master_section_analysis_postgrad_thesis_presentation.pdf">Presentation</a>
+    </div>
+  </article>
+
+  <footer>Theses are written in Portuguese; summaries are provided in each repository's README.</footer>
+</main>
+</body>
+</html>
